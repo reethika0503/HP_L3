@@ -64,3 +64,88 @@ body {
   font-size: 2rem; /* increase font size */
   padding: 0.5rem 1rem; /* increase padding */
 }
+.droppable-elements{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    left: 90px;
+    bottom: 300px;
+    }
+    .inner-box {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      display: inline-block;
+      margin-right: 10px;
+      display: none;
+    }
+    
+    
+    .droppable {
+      height: 5.5rem;
+      width: 5.5rem;
+      margin: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bold;
+      background-color: #fff;
+      border: 3px solid #111;
+      border-radius: 7px;
+      
+    }
+    .droppable span {
+        font-size: 1.25rem;
+        pointer-events: none; /* The element is never the target of pointer events */
+      }
+      .eight{
+        position: relative;
+        left: 47px;
+      }
+      .seven{
+        position:relative;
+        right: 47px;
+        bottom: 125px;
+      }
+      .six{
+        position: relative;
+        bottom: 158px;
+      }
+      .five{
+        position: relative;
+        bottom: 190px;
+        left: 47px;
+      }
+      .four{
+        position: relative;
+        bottom: 316px;
+        right: 47px;
+      }
+      .three{
+        position: relative;
+        bottom: 348px;
+      }
+      .two{
+        position: relative;
+        bottom: 380px;
+      }
+      .one{
+        position: relative;
+        bottom: 412px;
+      }
+  .container2{
+    width: 400px;
+    height: 225px;
+    position: absolute;
+    bottom: 53px;
+    right: 430px;
+    text-align: left;
+  }
+  .container2 h3{
+    text-align: center;
+  }
