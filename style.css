@@ -1,0 +1,66 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #eee;
+  color: #111;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #859398, #859398);
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.droppable-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.droppable {
+  height: 5.5rem;
+  width: 5.5rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #fff;
+  border: 3px solid #111;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.droppable span {
+  font-size: 1.25rem;
+  pointer-events: none;
+}
+
+.inner-box {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 10px;
+  display: none;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#tryAgainButton {
+  font-size: 2rem; /* increase font size */
+  padding: 0.5rem 1rem; /* increase padding */
+}
